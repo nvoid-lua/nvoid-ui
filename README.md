@@ -2,6 +2,6 @@
 This plugin is for both the colors and UI stuff for nvoid
 
 # Credits
-[Nvim Base16](https://github.com/norcalli/nvim-base16.lua)
-[NvChad Base46](https://github.com/NvChad/base46)
-[NvChad UI](https://github.com/NvChad/ui)
+- [Nvim Base16](https://github.com/norcalli/nvim-base16.lua)
+- [NvChad Base46](https://github.com/NvChad/base46)
+- [NvChad UI](https://github.com/NvChad/ui)
