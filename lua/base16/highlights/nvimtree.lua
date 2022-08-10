@@ -1,4 +1,4 @@
-local colors = require("ui").get()
+local colors = require("ui").base16_get()
 local fg = require("ui").fg
 local bg = require("ui").bg
 local fg_bg = require("ui").fg_bg
@@ -8,7 +8,7 @@ fg("NvimTreeEndOfBuffer", colors.darker_black)
 fg("NvimTreeFolderIcon", colors.folder_bg)
 fg("NvimTreeFolderName", colors.folder_bg)
 fg("NvimTreeGitDirty", colors.red)
-fg("NvimTreeGitStaged",colors.blue)
+fg("NvimTreeGitStaged", colors.blue)
 fg("NvimTreeGitNew", colors.yellow)
 fg("NvimTreeGitDeleted", colors.red)
 fg("NvimTreeGitMerge", colors.light_grey)

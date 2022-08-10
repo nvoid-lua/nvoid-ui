@@ -2,7 +2,8 @@ local M = {}
 local api = vim.api
 local cmd = vim.cmd
 
-M.init = function(theme)
+-- Base16
+M.base16_init = function(theme)
   if not theme then
     theme = require("nvoid.core.utils").load_config().ui.theme
   end
@@ -15,7 +16,7 @@ M.init = function(theme)
   end
 end
 
-M.get = function()
+M.base16_get = function()
   local theme = require("nvoid.core.utils").load_config().ui.theme
   return require("base16.themes." .. theme).colors
 end
@@ -36,6 +37,7 @@ M.bg_fg = function(group, bgcol, fgcol)
   cmd("hi " .. group .. " guibg=" .. bgcol .. " guifg=" .. fgcol)
 end
 
+-- BufferLine
 M.bufferclose = function(bufnr)
   if vim.bo.buftype == "terminal" then
     vim.cmd(vim.bo.buflisted and "set nobl | enew" or "hide")

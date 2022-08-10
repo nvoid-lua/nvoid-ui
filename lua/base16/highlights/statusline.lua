@@ -1,4 +1,4 @@
-local colors = require("ui").get()
+local colors = require("ui").base16_get()
 local bg = require("ui").bg
 local fg_bg = require("ui").fg_bg
 local bg_fg = require("ui").bg_fg
