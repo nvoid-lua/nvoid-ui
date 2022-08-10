@@ -1,0 +1,18 @@
+local colors = require("base16").get()
+local fg = require("base16").fg
+
+fg("NotifyERRORBorder", colors.red)
+fg("NotifyWARNBorder", colors.yellow)
+fg("NotifyINFOBorder", colors.green)
+fg("NotifyDEBUGBorder", colors.grey_fg)
+fg("NotifyTRACEBorder", colors.purple)
+fg("NotifyERRORIcon", colors.red)
+fg("NotifyWARNIcon", colors.yellow)
+fg("NotifyINFOIcon", colors.green)
+fg("NotifyDEBUGIcon", colors.grey_fg)
+fg("NotifyTRACEIcon", colors.purple)
+fg("NotifyERRORTitle", colors.red)
+fg("NotifyWARNTitle", colors.yellow)
+fg("NotifyINFOTitle", colors.green)
+fg("NotifyDEBUGTitle", colors.grey_fg)
+fg("NotifyTRACETitle", colors.purple)
