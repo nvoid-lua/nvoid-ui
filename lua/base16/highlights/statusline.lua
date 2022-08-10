@@ -44,7 +44,6 @@ bg_fg("St_ConfirmModeE", colors.black, colors.teal)
 bg_fg("St_CommandModeE", colors.black, colors.green)
 bg_fg("St_SelectModeE", colors.black, colors.nord_blue)
 
-
 bg_fg("St_NormalModeSep", colors.grey, colors.nord_blue)
 bg_fg("St_InsertModeSep", colors.grey, colors.dark_purple)
 bg_fg("St_TerminalModeSep", colors.grey, colors.green)

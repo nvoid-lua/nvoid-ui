@@ -124,13 +124,13 @@ M.git = function()
   local git_status = vim.b.gitsigns_status_dict
 
   local added = (git_status.added and git_status.added ~= 0) and ("%#St_gitAdd#" .. icons.git.added .. git_status.added)
-      or ""
+    or ""
   local changed = (git_status.changed and git_status.changed ~= 0)
       and ("%#St_gitMod#" .. icons.git.modified .. git_status.changed)
-      or ""
+    or ""
   local removed = (git_status.removed and git_status.removed ~= 0)
       and ("%#St_gitRem#" .. icons.git.removed .. git_status.removed)
-      or ""
+    or ""
   local branch_name = "   " .. git_status.head .. " "
   local git_info = "%#St_gitIcons#" .. branch_name .. added .. " " .. changed .. " " .. removed
 
