@@ -1,7 +1,7 @@
-local colors = require("base16").get()
-local bg = require("base16").bg
-local fg_bg = require("base16").fg_bg
-local bg_fg = require("base16").bg_fg
+local colors = require("ui").get()
+local bg = require("ui").bg
+local fg_bg = require("ui").fg_bg
+local bg_fg = require("ui").bg_fg
 
 bg("StatusLine", colors.statusline_bg)
 

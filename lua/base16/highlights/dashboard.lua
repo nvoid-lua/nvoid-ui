@@ -1,5 +1,5 @@
-local colors = require("base16").get()
-local fg = require("base16").fg
+local colors = require("ui").get()
+local fg = require("ui").fg
 
 fg("DashboardCenter", colors.purple)
 fg("DashboardFooter", colors.cyan)

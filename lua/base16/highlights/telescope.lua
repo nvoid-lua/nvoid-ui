@@ -1,7 +1,7 @@
-local colors = require("base16").get()
-local fg = require("base16").fg
-local bg = require("base16").bg
-local fg_bg = require("base16").fg_bg
+local colors = require("ui").get()
+local fg = require("ui").fg
+local bg = require("ui").bg
+local fg_bg = require("ui").fg_bg
 
 fg_bg("TelescopeBorder", colors.darker_black, colors.darker_black)
 fg_bg("TelescopePromptBorder", colors.black2, colors.black2)

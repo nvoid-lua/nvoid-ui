@@ -1,5 +1,5 @@
-local colors = require("base16").get()
-local bg = require("base16").bg
+local colors = require("ui").get()
+local bg = require("ui").bg
 
 bg("Pmenu", colors.one_bg)
 bg("PmenuSbar", colors.one_bg2)

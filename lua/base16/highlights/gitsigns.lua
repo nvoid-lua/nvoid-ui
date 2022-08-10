@@ -1,6 +1,6 @@
-local colors = require("base16").get()
-local fg_bg = require("base16").fg_bg
-local fg = require("base16").fg
+local colors = require("ui").get()
+local fg_bg = require("ui").fg_bg
+local fg = require("ui").fg
 
 fg_bg("DiffAdd", "NONE", colors.blue)
 fg_bg("DiffDelete", "NONE", colors.red)

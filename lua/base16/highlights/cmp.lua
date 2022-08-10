@@ -1,6 +1,6 @@
-local colors = require("base16").get()
-local fg = require("base16").fg
-local fg_bg = require("base16").fg_bg
+local colors = require("ui").get()
+local fg = require("ui").fg
+local fg_bg = require("ui").fg_bg
 
 fg("CmpItemAbbr", colors.white)
 fg("CmpItemAbbrMatch", colors.blue)
