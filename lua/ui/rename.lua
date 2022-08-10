@@ -1,6 +1,6 @@
 local M = {}
 M.open = function()
-  local icons = require "nvoid.ui.icons"
+  local icons = require "ui.icons"
   local currName = vim.fn.expand "<cword>" .. " "
   local win = require("plenary.popup").create(currName, {
     title = "Rename",
@@ -17,7 +17,7 @@ M.open = function()
   })
   local map = vim.api.nvim_buf_set_keymap
   local map_opts = { noremap = true, silent = true }
-  local Rename = "stopinsert | lua require'nvoid.ui.rename'.apply(" .. currName .. "," .. win .. ")"
+  local Rename = "stopinsert | lua require'ui.rename'.apply(" .. currName .. "," .. win .. ")"
   vim.cmd "normal w"
   vim.cmd "startinsert"
   map(0, "i", "<Esc>", "<cmd>stopinsert | q!<CR>", map_opts)

@@ -45,7 +45,7 @@ M.bufferclose = function(bufnr)
     print "save the file bruh"
   else
     bufnr = bufnr or api.nvim_get_current_buf()
-    require("nvoid.core.utils").bufferlineprev()
+    require("ui").bufferlineprev()
     vim.cmd("bd" .. bufnr)
   end
 end
