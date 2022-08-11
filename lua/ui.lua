@@ -135,11 +135,12 @@ M.cmd = function()
   end, {})
 end
 
-M.setup = function()
+function M.setup(options)
   require("ui").base16_init()
   require("ui").cmd()
   vim.opt.statusline = "%!v:lua.require'ui.statusline'.run()"
   vim.opt.tabline = "%!v:lua.require'ui.bufferline'.run()"
+  require("config").setup(options)
 end
 
 return M
