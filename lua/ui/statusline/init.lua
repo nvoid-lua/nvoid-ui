@@ -55,6 +55,8 @@ S.run = function()
         M.scrollbar(),
       }
     end
+  else
+    vim.opt.laststatus = 0
   end
 end
 
