@@ -5,6 +5,7 @@ local defaults = {
     enable = true,
     style = "nvoid",
   },
+  bufferline = true
 }
 
 M.options = {}
