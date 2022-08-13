@@ -74,10 +74,6 @@ M.load_highlight = function(group)
 end
 
 M.load_theme = function()
-  -- set bg option
-  local theme_type = M.get_theme_tb("type") -- dark/light
-  vim.opt.bg = theme_type
-
   M.load_highlight("defaults")
   M.load_highlight("statusline")
 end
