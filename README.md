@@ -25,8 +25,19 @@ require("ui").setup{
 ```
 
 ## BufferLine
-## StatusLine
+![Bufferline](https://user-images.githubusercontent.com/94284073/184544887-77fc69b2-301c-4e48-b3b6-3c5df2120ee6.png)
+
+## Statusline
+- Evil
+![evil](https://user-images.githubusercontent.com/94284073/184544898-794d8781-0ff8-4e8f-b05d-b5f163f12af8.png)
+- Minimal
+![minimal](https://user-images.githubusercontent.com/94284073/184544903-17ab3e25-1c2c-4dc2-8fd8-93018b3e26d6.png)
+- Nvoid
+![nvoid](https://user-images.githubusercontent.com/94284073/184544905-f4da23d6-9e3e-4e5b-b405-7d24c91f18c0.png)
+
 ## Rename
+![2022-08-14-170457_1600x900_scrot](https://user-images.githubusercontent.com/94284073/184544992-27ba12fd-c148-4981-88ab-2a3c6118c5c4.png)
+
 
 # Base16
 
