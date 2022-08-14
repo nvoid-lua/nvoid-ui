@@ -36,10 +36,39 @@ require("ui").setup{
 ![nvoid](https://user-images.githubusercontent.com/94284073/184544905-f4da23d6-9e3e-4e5b-b405-7d24c91f18c0.png)
 
 ## Rename
-![2022-08-14-170457_1600x900_scrot](https://user-images.githubusercontent.com/94284073/184544992-27ba12fd-c148-4981-88ab-2a3c6118c5c4.png)
+![rename](https://user-images.githubusercontent.com/94284073/184544992-27ba12fd-c148-4981-88ab-2a3c6118c5c4.png)
 
 
 # Base16
+Supported Plugins:
+- Blankline
+- Bufferline([akinsho/bufferline](https://github.com/akinsho/bufferline.nvim) and the builtin)
+- CMP
+- Dashboard
+- Devicons
+- Git
+- LSP
+- Notify-nvim
+- Nvimtree
+- Statusline(The builtin)
+- Telescope
+- Treesitter
+- Whichkey
+
+it comes with 9 themes
+
+screenshots[@nvoid.org](https://nvoid.org/features/01-ui.html#colorschemes)
+
+## Loading the Highlights
+```lua
+require("base16").load_highlight "plugin"
+```
+You can Add this in the config file for every plugin that has highlights
+it's recommended to add these to the telescope config
+```lua
+require("base16").load_highlight "syntax"
+require("base16").load_highlight "treesitter"
+```
 
 # Credits
 - [Nvim Base16](https://github.com/norcalli/nvim-base16.lua)
