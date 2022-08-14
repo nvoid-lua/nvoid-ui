@@ -1,8 +1,6 @@
 local M = {}
 
 local defaults = {
-  hl_override = {},
-  changed_themes = {},
   transparency = false,
   statusline = {
     enable = true,

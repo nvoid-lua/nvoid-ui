@@ -1,6 +1,5 @@
 local merge_tb = require("base16").merge_tb
 
-local ui = require("nvoid.core.utils").load_config().ui
 local highlights = {}
 local hl_dir = vim.fn.stdpath "data" .. "/site/pack/packer/start/nvoid-ui/lua/base16/integrations"
 
