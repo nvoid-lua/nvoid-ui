@@ -1,7 +1,9 @@
 # nvoid-ui
-This plugin is for both the colors and UI stuff for nvoid
+This plugin is for both the colors and UI stuff
 
-It only works for nvoid **For Now**
+## BufferLine
+## StatusLine
+## Rename
 
 # Credits
 - [Nvim Base16](https://github.com/norcalli/nvim-base16.lua)

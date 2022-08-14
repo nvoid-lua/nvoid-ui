@@ -24,8 +24,6 @@ M.cmd = function(cmd, print_error)
    return result
 end
 
-M.update_nvoid = require "updater.update"
-
 -- BufferLine
 M.bufferclose = function(bufnr)
   if vim.bo.buftype == "terminal" then

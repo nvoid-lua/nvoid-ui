@@ -1,11 +1,14 @@
 local M = {}
 
 local defaults = {
+  hl_override = {},
+  changed_themes = {},
+  transparency = false,
   statusline = {
     enable = true,
     style = "nvoid",
   },
-  bufferline = true
+  bufferline = true,
 }
 
 M.options = {}
