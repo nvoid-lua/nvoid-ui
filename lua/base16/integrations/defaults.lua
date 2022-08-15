@@ -16,7 +16,7 @@ return {
 
   Comment = { fg = colors.grey_fg },
 
-  CursorLineNr = { fg = colors.light_grey, bold = true },
+  CursorLineNr = { fg = theme.base04, bold = true },
   LineNr = { fg = colors.grey },
 
   -- floating windows
