@@ -7,7 +7,7 @@ return {
   TSConstructor = { fg = theme.yellow },
   TSType = { fg = theme.yellow },
   TSTypeBuiltin = { fg = theme.yellow },
-  TSConditional = { fg = theme.purple },
+  TSConditional = { fg = theme.dark_purple },
   TSException = { fg = theme.purple },
   TSInclude = { fg = theme.purple },
   TSKeyword = { fg = theme.dark_purple },
