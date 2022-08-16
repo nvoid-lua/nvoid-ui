@@ -81,7 +81,7 @@ return {
     separator = "➜ ",
     group = "+ ",
   },
-  borders = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" },
+  borders = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
   devicons = {
     default_icon = {
       icon = "",
