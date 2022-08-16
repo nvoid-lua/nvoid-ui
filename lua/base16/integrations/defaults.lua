@@ -20,8 +20,8 @@ return {
   LineNr = { fg = colors.grey },
 
   -- floating windows
-  FloatBorder = { fg = colors.blue },
-  NormalFloat = { bg = colors.darker_black },
+  FloatBorder = { fg = colors.grey },
+  NormalFloat = { bg = colors.black },
 
   NvimInternalError = { fg = colors.red },
   WinSeparator = { fg = colors.line },
