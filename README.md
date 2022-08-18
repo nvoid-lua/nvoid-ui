@@ -49,17 +49,6 @@ it comes with 9 themes
 
 screenshots[@nvoid.org](https://nvoid.org/features/01-ui.html#colorschemes)
 
-## Loading the Highlights
-```lua
-require("base16").load_highlight "plugin"
-```
-You can Add this in the config file for every plugin that has highlights
-it's recommended to add these to the telescope config
-```lua
-require("base16").load_highlight "syntax"
-require("base16").load_highlight "treesitter"
-```
-
 # Credits
 - [Nvim Base16](https://github.com/norcalli/nvim-base16.lua)
 - [NvChad Base46](https://github.com/NvChad/base46)
