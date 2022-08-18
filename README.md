@@ -1,15 +1,5 @@
 # nvoid-ui
-This plugin is for both the colors and UI stuff
-
-# Install
-Note: Make it the first plugins which need to have any highlight from the colorscheme
-- Packer
-```lua
-use { "nvim-lua/plenary.nvim" },
-use { "nvoid-lua/nvoid-ui" }
-use { "kyazdani42/nvim-web-devicons", after = "nvoid-ui", }
-```
-Note: the Git Stuff for the StatusLine needs [git-signs](https://github.com/lewis6991/gitsigns.nvim)
+This plugin is for both the colors and UI stuff for `Nvoid`
 
 # Config
 ```lua
