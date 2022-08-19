@@ -1,4 +1,4 @@
-local colors = require("base16").get_theme_tb("base_30")
+local colors = require("base16").get_theme_tb "base_30"
 
 return {
   NvimTreeEmptyFolderName = { fg = colors.folder_bg },
@@ -20,4 +20,5 @@ return {
   NvimTreeVertSplit = { fg = colors.darker_black, bg = colors.darker_black },
   NvimTreeWindowPicker = { fg = colors.red, bg = colors.black2 },
   NvimTreeCursorLine = { bg = colors.one_bg3 },
+  NvimTreeGitIgnored = { fg = colors.purple },
 }
