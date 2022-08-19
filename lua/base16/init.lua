@@ -49,16 +49,8 @@ M.load_all_highlights = function()
   end
 end
 
-M.load_highlight = function(group)
-  local default_hl = require("base16.integrations." .. group)
-  for hl, col in pairs(default_hl) do
-    vim.api.nvim_set_hl(0, hl, col)
-  end
-end
-
 M.load_theme = function()
-  M.load_highlight "defaults"
-  M.load_highlight "statusline"
+  M.load_all_highlights()
 end
 
 M.override_theme = function(default_theme, theme_name)
