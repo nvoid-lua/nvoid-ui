@@ -14,7 +14,7 @@ return {
   NvimTreeGitRenamed = { fg = colors.light_grey },
   NvimTreeNormal = { bg = colors.darker_black },
   NvimTreeNormalNC = { bg = colors.darker_black },
-  NvimTreeIndentMarker = { fg = colors.one_bg2 },
+  NvimTreeIndentMarker = { fg = colors.folder_bg },
   NvimTreeEndOfBuffer = { fg = colors.darker_black },
   NvimTreeStatuslineNc = { fg = colors.darker_black, bg = colors.darker_black },
   NvimTreeVertSplit = { fg = colors.darker_black, bg = colors.darker_black },
