@@ -14,9 +14,9 @@ return {
 
   MatchParen = { link = "MatchWord" },
 
-  Comment = { fg = colors.grey_fg },
+  Comment = { fg = theme.base03 },
 
-  CursorLineNr = { fg = theme.base04, bold = true },
+  CursorLineNr = { fg = theme.base05, bold = true },
   LineNr = { fg = colors.grey },
 
   -- floating windows

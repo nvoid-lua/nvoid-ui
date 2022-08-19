@@ -1,7 +1,6 @@
 local theme = require("base16").get_theme_tb "base_30"
 
 return {
-  TSComment = { fg = theme.grey },
   TSAnnotation = { fg = theme.blue },
   TSAttribute = { fg = theme.cyan },
   TSConstructor = { fg = theme.yellow },
