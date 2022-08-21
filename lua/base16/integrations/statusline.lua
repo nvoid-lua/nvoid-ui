@@ -4,6 +4,9 @@ return {
 
   StatusLine = { bg = colors.statusline_bg },
 
+  -- TreeSitter
+  St_Treesitter = { fg = colors.green, bg = colors.statusline_bg },
+
   -- Git
   St_gitIcons = { fg = colors.light_grey, bg = colors.statusline_bg },
   St_gitAdd = { fg = colors.green, bg = colors.statusline_bg },

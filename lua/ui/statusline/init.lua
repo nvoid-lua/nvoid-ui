@@ -17,6 +17,7 @@ S.run = function()
         M.lsp_progress(),
         "%=",
 
+        M.treesitter_status(),
         M.diagnostics(),
         M.lsp(),
         M.scrollbar(),
@@ -32,6 +33,7 @@ S.run = function()
         M.lsp_progress(),
         "%=",
 
+        M.treesitter_status(),
         M.fileInfo(),
         M.scrollbar(),
       }
@@ -45,6 +47,7 @@ S.run = function()
         M.lsp_progress(),
         "%=",
 
+        M.treesitter_status(),
         M.diagnostics(),
         M.lsp(),
         M.scrollbar(),

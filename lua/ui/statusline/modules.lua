@@ -193,8 +193,13 @@ M.lsp = function(msg)
   return "%#St_LspStatus#" .. icons.statusline.lsp .. table.concat(unique_client_names, ", ") .. " "
 end
 
+M.treesitter_status = function()
+  local ts_avail, ts = pcall(require, "nvim-treesitter.parsers")
+  return (ts_avail and ts.has_parser()) and "%#St_Treesitter#" .. icons.statusline.treesitter .. " " or ""
+end
+
 M.scrollbar = function()
-  local current_line = vim.fn.line "."
+ local current_line = vim.fn.line "."
   local total_lines = vim.fn.line "$"
   local chars = { "__", "▁▁", "▂▂", "▃▃", "▄▄", "▅▅", "▆▆", "▇▇", "██" }
   local line_ratio = current_line / total_lines
