@@ -3,10 +3,8 @@ local M = {}
 local defaults = {
   transparency = false,
   statusline = {
-    enable = true,
     style = "nvoid",
   },
-  bufferline = true,
 }
 
 M.options = {}
