@@ -39,7 +39,7 @@ M.load_all_highlights = function()
   clear_hl "BufferLine"
   clear_hl "TS"
 
-  reload "base16.integrations"
+  reload "base16.highlight"
   reload "base16.hl"
 
   local hl_groups = require "base16.hl"
